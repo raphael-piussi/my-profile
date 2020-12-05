@@ -1,0 +1,85 @@
+/* Colors and fonts */
+{ }
+body { 
+  background: rgb(69, 98, 104);
+  color: rgb(252, 248, 236);
+  font-family: Lato, serif;
+  font-size: 16px;
+}
+
+h1 { 
+  color: rgb(208, 232, 242);
+  font-family: Roboto, sans-serif;
+  font-size: 52px;
+  font-weight: bold;
+
+}
+
+h2 { 
+  color: rgb(202 189 189);
+  font-family: Lato
+  font-size: 26px;
+  font-weight: lighter;
+
+}
+
+a { 
+  text-decoration: none;
+  color: rgb(208, 232, 242);
+  font-family: Roboto, sans-serif;
+  font-size: 23px;
+  }
+
+a:hover { 
+  color:rgb(121, 163, 177);
+  }
+
+/*Customs design with class */
+
+.container { 
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-rosybrown { 
+  background-color: rosybrown;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center; 
+}
+
+.img-circle { 
+  border-radius: 50%;
+}
+
+.btn-white { 
+  background-color: white;
+  color:rgb(121, 163, 177);
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-white:hover { 
+  background-color: rgb(208, 232, 242);
+  color:white;
+}
+
+.list-inline { 
+  list-style: none,
+  paddingleft: 0px;
+}
+
+.list-inline li { 
+  display: inline;
+  padding: 10px;
+ }
+
+ .list-inline i { 
+  font-size: 50px;
+ }
+
+ #introduction p { 
+  margin-bottom: 40px;
+ }
